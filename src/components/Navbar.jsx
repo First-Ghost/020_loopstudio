@@ -47,7 +47,7 @@ export const Navbar = () => {
             />
           </div>
         ) : (
-          <div className=" ease-in-out duration-300 md:hidden fixed left-0 top-0 bg-[black] w-full h-screen px-[24px] z-40">
+          <div className=" ease-in-out duration-300 md:hidden fixed left-0 top-0 bg-[black] w-full h-full px-[24px] z-40">
             <div className="    h-[24px] mx-auto my-[40px] flex  items-center justify-between ">
               <img className="mx-5" src={logo} alt="logo" />
               <div className="md:hidden ">
