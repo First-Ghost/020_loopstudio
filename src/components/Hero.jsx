@@ -4,7 +4,7 @@ import hero2 from "../imgs/images/mobile/image-hero.jpg";
 
 export const Hero = () => {
   return (
-    <div className="md:max-w-[1440px] max-w-[375px] mx-auto -z-10">
+    <div className="md:max-w-[1440px] w-full mx-auto -z-10">
       {/* This div and image will show on large screens (md and up) */}
       <div className="hidden md:block absolute top-0 w-full mx-auto object-cover -z-10">
         <img src={hero} alt="hero" />
